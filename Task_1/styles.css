@@ -1,0 +1,127 @@
+body
+{
+    text-align: center;
+    background-color: #E7ECEF;
+    color: #274C77;
+    font-family: "tahoma";
+}
+
+form
+{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: auto;
+    width: 90vw;
+}
+
+h3
+{
+    font-size: 32px;
+    font-family: "verdana";
+    text-transform: uppercase;
+}
+
+label
+{
+    font-family: "verdana";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main
+{
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+input, textarea, select
+{
+    height: 30px;
+    font-family: "verdana";
+    color: #101213;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #6096BA;
+    width: 80vw;
+    background-color: #A3CEF1;
+}
+
+textarea
+{
+    position: relative;
+    resize: vertical;
+    height: 20vh;
+}
+
+#submit-btn
+{
+    background-color: #274C77;
+    color: #E7ECEF;
+    font-family: "verdana";
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 30vw;
+    cursor: pointer;
+}
+
+#postDisplay
+{
+    background-color: #274C77;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 90vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+h2
+{
+    text-align: center;
+    color: #A3CEF1;
+    font-family: "verdana";
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: -15px;
+}
+
+hr
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p
+{
+    font-family: "verdana";
+    font-size: 14px;
+    color: #E7ECEF;
+}
+
+img
+{
+    width: 25vw;
+    height: 30vh;
+    float: left;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+#commentBox
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 30vh;
+    padding: 10px 15px;
+}
+
+#filter
+{
+    position: relative;
+    left: 39%;
+    width: 10vw;
+}

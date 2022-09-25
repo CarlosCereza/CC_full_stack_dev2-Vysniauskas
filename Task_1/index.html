@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>VysniaBlog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h3>Create a post</h3>
+        <form id="createPostForm" method="POST">
+            <label>Full name:</label><br>
+            <input type="text" id="name"><br>
+
+            <label>Date:</label><br>
+            <input type = "date" id="datePicker"><br>
+
+            <label>Picture URL:</label><br>
+            <input type = "url" id="url"><br>
+        
+            <label>Comment:</label><br>
+            <textarea id="comment"></textarea><br>
+
+            <input type="submit" id="submit-btn">
+        </form>
+    </main>
+    <hr>
+    <select id="filter">
+        <option selected>2022</option>
+    </select>
+    <div id="postsContainer"></div>
+</body>
+</html>
