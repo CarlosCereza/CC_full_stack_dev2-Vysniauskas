@@ -1,9 +1,10 @@
- >> TASK1
+ --> TASK1
+
 To open Blog website simply double-click on index.html file in any directory.
 
 Tested using Microsoft Edge browser yet should work with any.
 
- >> TASK2
+ --> TASK2
 To start API server:
 
 1. Start local MySQL server at port 3306
